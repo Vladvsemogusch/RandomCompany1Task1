@@ -1,0 +1,153 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\_name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v13.xml
+* .idea\libraries\libs.xml
+* .idea\libraries\universal_image_loader_1_8_6.xml
+* .idea\libraries\urlimageviewhelper_1_0_4.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* WebComics.iml
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\WebComics\
+* out\production\WebComics\WebComics.apk
+* out\production\WebComics\WebComics.unaligned.apk
+* out\production\WebComics\pp\
+* out\production\WebComics\pp\oped\
+* out\production\WebComics\pp\oped\WebComics\
+* out\production\WebComics\pp\oped\WebComics\BuildConfig.class
+* out\production\WebComics\pp\oped\WebComics\FragmentStatePagerSupport$ArrayListFragment.class
+* out\production\WebComics\pp\oped\WebComics\FragmentStatePagerSupport$MyAdapter.class
+* out\production\WebComics\pp\oped\WebComics\FragmentStatePagerSupport$MyOnPageChangeListener.class
+* out\production\WebComics\pp\oped\WebComics\FragmentStatePagerSupport.class
+* out\production\WebComics\pp\oped\WebComics\MyActivity$1.class
+* out\production\WebComics\pp\oped\WebComics\MyActivity.class
+* out\production\WebComics\pp\oped\WebComics\MyArrayAdapter.class
+* out\production\WebComics\pp\oped\WebComics\R$attr.class
+* out\production\WebComics\pp\oped\WebComics\R$drawable.class
+* out\production\WebComics\pp\oped\WebComics\R$id.class
+* out\production\WebComics\pp\oped\WebComics\R$layout.class
+* out\production\WebComics\pp\oped\WebComics\R$string.class
+* out\production\WebComics\pp\oped\WebComics\R.class
+* out\production\WebComics\pp\oped\WebComics\Viewer\
+* out\production\WebComics\pp\oped\WebComics\Viewer\Viewer$1.class
+* out\production\WebComics\pp\oped\WebComics\Viewer\Viewer$MainPagerAdapter.class
+* out\production\WebComics\pp\oped\WebComics\Viewer\Viewer.class
+* out\production\WebComics\pp\oped\WebComics\Viewer\ViewerFragment.class
+* out\production\WebComics\pp\oped\WebComics\library\
+* out\production\WebComics\pp\oped\WebComics\library\com\
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\AssetUrlDownloader$1.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\AssetUrlDownloader.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\Constants.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\ContactContentUrlDownloader$1.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\ContactContentUrlDownloader.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\ContentUrlDownloader$1.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\ContentUrlDownloader.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\DrawableCache.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\FileUrlDownloader$1.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\FileUrlDownloader.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\HttpUrlDownloader$1.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\HttpUrlDownloader.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\LruBitmapCache.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\LruCache.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\SoftReferenceHashTable.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlDownloader$UrlDownloaderCallback.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlDownloader.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewCallback.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper$1.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper$2.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper$3.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper$Loader.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper$RequestPropertiesCallback.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper$ZombieDrawable$Brains.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper$ZombieDrawable.class
+* out\production\WebComics\pp\oped\WebComics\library\com\koushikdutta\urlimageviewhelper\UrlImageViewHelper.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\Compat.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\IPhotoView.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoView.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher$1.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher$2.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher$AnimatedZoomRunnable.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher$FlingRunnable.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher$OnMatrixChangedListener.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher$OnPhotoTapListener.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher$OnViewTapListener.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\PhotoViewAttacher.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\SDK16.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\ScrollerProxy$GingerScroller.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\ScrollerProxy$PreGingerScroller.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\ScrollerProxy.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\VersionedGestureDetector$CupcakeDetector.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\VersionedGestureDetector$EclairDetector.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\VersionedGestureDetector$FroyoDetector$1.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\VersionedGestureDetector$FroyoDetector.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\VersionedGestureDetector$OnGestureListener.class
+* out\production\WebComics\pp\oped\WebComics\library\uk\co\senab\photoview\VersionedGestureDetector.class
+* out\production\WebComics\pp\oped\WebComics\loaders\
+* out\production\WebComics\pp\oped\WebComics\loaders\ComicsLoader.class
+* out\production\WebComics\pp\oped\WebComics\loaders\CourtLoader.class
+* out\res-cache\
+* out\res-cache\WebComics\
+* out\res-cache\WebComics\drawable-hdpi\
+* out\res-cache\WebComics\drawable-hdpi\ic_launcher.png
+* out\res-cache\WebComics\drawable-ldpi\
+* out\res-cache\WebComics\drawable-ldpi\ic_launcher.png
+* out\res-cache\WebComics\drawable-mdpi\
+* out\res-cache\WebComics\drawable-mdpi\ic_launcher.png
+* out\res-cache\WebComics\drawable-xhdpi\
+* out\res-cache\WebComics\drawable-xhdpi\ic_launcher.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => webComics\src\main\AndroidManifest.xml
+* libs\android-support-v13.jar => webComics\libs\android-support-v13.jar
+* libs\universal-image-loader-1.8.6.jar => webComics\libs\universal-image-loader-1.8.6.jar
+* libs\urlimageviewhelper-1.0.4.jar => webComics\libs\urlimageviewhelper-1.0.4.jar
+* res\ => webComics\src\main\res\
+* src\ => webComics\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

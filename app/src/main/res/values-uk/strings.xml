@@ -1,0 +1,13 @@
+<resources>
+    <string name="title">Комунальне Госп</string>
+    <string name="status">В роботi</string>
+    <string name="created">Створено</string>
+    <string name="registered">Зареєстровано</string>
+    <string name="resolve_before">Вирiшити до</string>
+    <string name="directed_by">Вiдповiдальний</string>
+    <string name="created_date">25 лютого 2016</string>
+    <string name="registered_date">26 лютого 2016</string>
+    <string name="resolve_before_date">29 лютого 2016</string>
+    <string name="director_name">Днiпропетровський МВК</string>
+    <string name="desc">Вiдкритий люк, район поворота…</string>
+</resources>

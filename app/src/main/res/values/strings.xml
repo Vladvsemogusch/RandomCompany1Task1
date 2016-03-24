@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Task1</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="app_title" translatable="false">CE15246</string>
+    <string name="title">Municipal property</string>
+    <string name="status">In progress</string>
+    <string name="created">Created</string>
+    <string name="registered">Registered</string>
+    <string name="resolve_before">Вирiшити до</string>
+    <string name="directed_by">Dirceted by</string>
+    <string name="created_date">25 feb 2016</string>
+    <string name="registered_date">26 feb 2016</string>
+    <string name="resolve_before_date">29 feb 2016</string>
+    <string name="director_name">Dnepropetrovsk MVK</string>
+    <string name="desc">Opened manhole, area near turn to...</string>
+</resources>
