@@ -13,7 +13,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
 
     public static class PersonViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView mImage;
+        ImageView mImage; //[Comment] Wrong name, wrong visibility modifier
 
         PersonViewHolder(View itemView) {
             super(itemView);
@@ -21,21 +21,21 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
         }
     }
 
-    List<Integer> mImageIds;
+    List<Integer> mImageIds; //[Comment] Wrong visibility modifier
 
-    RVAdapter(List<Integer> mImageIds) {
-        this.mImageIds = mImageIds;
+    RVAdapter(List<Integer> mImageIds) { //[Comment] Wrong visibility modifier
+        this.mImageIds = mImageIds; //[Comment] Without this
     }
 
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
+        super.onAttachedToRecyclerView(recyclerView); //[Comment] What is doing this method?? Unnecessary method
     }
 
     @Override
     public PersonViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.rv_item, viewGroup, false);
-        PersonViewHolder mPvh = new PersonViewHolder(v);
+        PersonViewHolder mPvh = new PersonViewHolder(v); //[Comment] mPvh not informative name
         return mPvh;
     }
 
