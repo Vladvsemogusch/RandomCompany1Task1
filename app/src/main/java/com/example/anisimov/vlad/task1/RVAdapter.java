@@ -10,38 +10,33 @@ import java.util.List;
 
 
 public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> {
+    private List<Integer> mImageIds;
+
+    public RVAdapter(List<Integer> ImageIds) {
+        mImageIds = ImageIds;
+    }
 
     public static class PersonViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView mImage;
+        private ImageView mImageView;
 
         PersonViewHolder(View itemView) {
             super(itemView);
-            mImage = (ImageView) itemView.findViewById(R.id.rv_image);
+            mImageView = (ImageView) itemView.findViewById(R.id.rv_image);
         }
     }
 
-    List<Integer> mImageIds;
-
-    RVAdapter(List<Integer> mImageIds) {
-        this.mImageIds = mImageIds;
-    }
-
-    @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
-    }
 
     @Override
     public PersonViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.rv_item, viewGroup, false);
-        PersonViewHolder mPvh = new PersonViewHolder(v);
-        return mPvh;
+        PersonViewHolder personViewHolder = new PersonViewHolder(v);
+        return personViewHolder;
     }
 
     @Override
     public void onBindViewHolder(PersonViewHolder personViewHolder, int i) {
-        personViewHolder.mImage.setImageResource(mImageIds.get(i));
+        personViewHolder.mImageView.setImageResource(mImageIds.get(i));
     }
 
     @Override
